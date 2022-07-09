@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="90" height="33" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="31">
+ <tileset firstgid="1" source="Room Builder Main.tsx"/>
+</map>

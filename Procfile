@@ -1,0 +1,1 @@
+cd solana_server && node server.js

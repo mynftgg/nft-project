@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="room_builder/Room_Builder_32x32.tsx"/>
+ <tileset firstgid="8285" source="interiors/1_Generic_32x32.tsx"/>
+ <tileset firstgid="9533" source="interiors/2_LivingRoom_32x32.tsx"/>
+ <tileset firstgid="10253" source="interiors/3_Bathroom_32x32.tsx"/>
+ <tileset firstgid="11149" source="interiors/4_Bedroom_32x32.tsx"/>
+ <tileset firstgid="12861" source="interiors/5_Classroom_and_library_32x32.tsx"/>
+ <tileset firstgid="13405" source="interiors/6_Music_and_sport_32x32.tsx"/>
+ <tileset firstgid="14173" source="interiors/7_Art_32x32.tsx"/>
+ <tileset firstgid="14285" source="interiors/8_Gym_32x32.tsx"/>
+ <tileset firstgid="14813" source="interiors/9_Fishing_32x32.tsx"/>
+ <tileset firstgid="15245" source="interiors/10_Birthday_party_32x32.tsx"/>
+ <tileset firstgid="15329" source="interiors/11_Halloween_32x32.tsx"/>
+ <tileset firstgid="16305" source="interiors/12_Kitchen_32x32.tsx"/>
+ <tileset firstgid="17089" source="interiors/13_Conference_Hall_32x32.tsx"/>
+ <tileset firstgid="17281" source="interiors/14_Basement_32x32.tsx"/>
+ <tileset firstgid="18081" source="interiors/15_Christmas_32x32.tsx"/>
+ <tileset firstgid="18353" source="interiors/16_Grocery_store_32x32.tsx"/>
+ <tileset firstgid="19601" source="interiors/17_Visibile_Upstairs_System_32x32.tsx"/>
+ <tileset firstgid="20033" source="interiors/18_Jail_32x32.tsx"/>
+ <tileset firstgid="20753" source="interiors/19_Hospital_32x32.tsx"/>
+ <tileset firstgid="22513" source="interiors/20_Japanese_interiors_32x32.tsx"/>
+ <tileset firstgid="23025" source="interiors/21_Clothing_Store_32x32.tsx"/>
+ <tileset firstgid="24097" source="interiors/22_Museum_32x32.tsx"/>
+ <tileset firstgid="26049" source="interiors/23_Tevelision_and_Film_Studio_32x32.tsx"/>
+ <tileset firstgid="26273" source="interiors/24_Ice_Cream_Shop_32x32.tsx"/>
+ <tileset firstgid="26545" source="interiors/25_Shooting_Range_32x32.tsx"/>
+ <tileset firstgid="26625" source="interiors/26_Condominium_32x32.tsx"/>
+ <tileset firstgid="26929" source="designed_rooms/1_Condo.tsx"/>
+ <tileset firstgid="27643" source="designed_rooms/2_Generic_Home.tsx"/>
+ <tileset firstgid="28217" source="designed_rooms/3_Gym.tsx"/>
+ <tileset firstgid="29537" source="designed_rooms/4_Ice_Cream.tsx"/>
+ <tileset firstgid="30017" source="designed_rooms/5_Japanese.tsx"/>
+ <tileset firstgid="30837" source="designed_rooms/6_Shooting.tsx"/>
+ <tileset firstgid="31157" source="designed_rooms/7_TV.tsx"/>
+ <tileset firstgid="31597" source="designed_rooms/8_Museum_Entrance.tsx"/>
+ <tileset firstgid="32851" source="designed_rooms/9_Museum_Room_1.tsx"/>
+ <tileset firstgid="33871" source="designed_rooms/10_Museum_Room_2.tsx"/>
+ <tileset firstgid="35455" source="designed_rooms/11_Museum_Room_3.tsx"/>
+ <tileset firstgid="36652" source="designed_rooms/12_Museum_Room_4.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="40" height="40">
+  <data encoding="csv">
+171,8301,9535,10279,11179,12890,13427,14215,14307,14840,15251,15353,16410,17103,17307,18130,18362,19610,20043,20786,22572,23035,24137,26085,26327,26568,26653,26931,27678,26931,28246,29675,30325,30933,31338,37040,0,0,0,0,
+0,0,0,0,0,0,0,0,0,14856,0,0,0,0,0,0,0,0,0,0,0,23051,0,0,0,0,26669,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

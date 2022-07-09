@@ -1,0 +1,65 @@
+{
+    "name": "my-game",
+    "version": "3.0.0-beta",
+    "description": "",
+    "main": "dist/server.js",
+    "types": "index.d.ts",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "postinstall": "npx patch-package",
+        "test": "NODE_ENV=test jest",
+        "build": "rimraf dist && webpack",
+        "dev": "webpack -w",
+        "start": "node dist/server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@rpgjs/client": "^3.0.0-beta.2",
+        "@rpgjs/default-gui": "^3.0.0-beta.2",
+        "@rpgjs/gamepad": "^3.0.0-beta.2",
+        "@rpgjs/mobile-gui": "^3.0.0-beta.2",
+        "@rpgjs/server": "^3.0.0-beta.2",
+        "@rpgjs/standalone": "^3.0.0-beta.2",
+        "@rpgjs/starter-kit": "^3.0.0-beta.2",
+        "@rpgjs/testing": "^3.0.0-beta.2",
+        "@solana/wallet-adapter-base": "^0.8.1",
+        "@solana/wallet-adapter-vue": "^0.4.1",
+        "@solana/wallet-adapter-vue-ui": "^0.2.0",
+        "@solana/wallet-adapter-wallets": "^0.13.0",
+        "@vue/compiler-sfc": "3.2.26",
+        "axios": "^0.21.4",
+        "express": "4.17.1",
+        "follow-redirects": "^1.14.4",
+        "image-promise": "^7.0.1",
+        "json": "^11.0.0",
+        "sharp": "^0.29.1",
+        "socket.io": "4.1.2",
+        "socket.io-client": "4.1.2",
+        "uuid": "^8.3.2",
+        "velocity-animate": "^1.5.2",
+        "vue": "3.2.26",
+        "vuemit": "^2.0.0",
+        "vuex": "^4.0.2",
+        "wasd-flappy": "^0.1.1"
+    },
+    "devDependencies": {
+        "@rpgjs/compiler": "^3.0.0-beta.2",
+        "@types/jest": "26.0.23",
+        "@types/jquery": "^3.5.9",
+        "canvas": "2.8.0",
+        "jest": "27.0.4",
+        "rimraf": "3.0.2",
+        "ts-jest": "27.0.2",
+        "typescript": "4.3.2",
+        "webpack": "4.46.0",
+        "webpack-cli": "3.3.12"
+    },
+    "engines": {
+        "node": "14.17.6",
+        "npm": "7.24.2"
+    }
+}

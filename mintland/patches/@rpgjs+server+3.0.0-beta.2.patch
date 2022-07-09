@@ -1,0 +1,12 @@
+diff --git a/node_modules/@rpgjs/server/lib/decorators/event.d.ts b/node_modules/@rpgjs/server/lib/decorators/event.d.ts
+index f1a734a..bc62d6a 100644
+--- a/node_modules/@rpgjs/server/lib/decorators/event.d.ts
++++ b/node_modules/@rpgjs/server/lib/decorators/event.d.ts
+@@ -39,5 +39,7 @@ export interface EventOptions {
+      * @memberof EventData
+      * */
+     name: string;
++
++    graphic?: string
+ }
+ export declare function EventData(options: EventOptions): (target: any) => void;
